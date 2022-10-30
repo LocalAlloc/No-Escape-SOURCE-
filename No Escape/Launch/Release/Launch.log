@@ -1,0 +1,8 @@
+﻿  Source.cpp
+D:\source\repos\No Escape\Launch\Source.cpp(80): warning C4409: illegal instruction size
+D:\source\repos\No Escape\Launch\Source.cpp(81): warning C4409: illegal instruction size
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+  All 7 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  Launch.vcxproj -> D:\source\repos\No Escape\Release\Launch.exe
