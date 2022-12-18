@@ -6,4 +6,4 @@ DON'T COPYRIGHT IT IT'S already COPYRIGHTED created by ME this is rightfully own
 This Thing might feel awful but FEEL free to use THE "ISSUE" TAB
 # (completed everything this EXEFILE might work) and the source code is the "source" but it won't work properly when compiled
 # pls set to "release", "x86" when compiling
-# the creator is not responsible for any damage done using this so PLEASE STOP 'IT' 
+# the creator is not responsible for any damage done using this so HoPe YoU uNdErStAnD
