@@ -1,0 +1,21 @@
+﻿  Source.cpp
+D:\source\repos\No Escape\No Escape\main.h(726,32): warning C4390: ';': empty controlled statement found; is this the intent?
+D:\source\repos\No Escape\No Escape\main.h(733,32): warning C4390: ';': empty controlled statement found; is this the intent?
+D:\source\repos\No Escape\No Escape\main.h(795,31): warning C4390: ';': empty controlled statement found; is this the intent?
+D:\source\repos\No Escape\No Escape\Source.cpp(2,1): warning C4005: 'UNICODE': macro redefinition
+D:\source\repos\No Escape\No Escape\Source.cpp(2,1): message : 'UNICODE' previously declared on the command line
+D:\source\repos\No Escape\No Escape\Source.cpp(6,1): warning C4005: '_CRT_SECURE_NO_WARNINGS': macro redefinition
+D:\source\repos\No Escape\No Escape\Source.cpp(6,1): message : '_CRT_SECURE_NO_WARNINGS' previously declared on the command line
+D:\source\repos\No Escape\No Escape\definitions.h(41,1): warning C4409: illegal instruction size
+D:\source\repos\No Escape\No Escape\definitions.h(42,4): warning C4409: illegal instruction size
+D:\source\repos\No Escape\No Escape\definitions.h(264,28): warning C4129: 'W': unrecognized character escape sequence
+D:\source\repos\No Escape\No Escape\definitions.h(264,28): warning C4129: 'S': unrecognized character escape sequence
+D:\source\repos\No Escape\No Escape\definitions.h(264,28): warning C4129: 'h': unrecognized character escape sequence
+D:\source\repos\No Escape\No Escape\definitions.h(772,32): warning C4390: ';': empty controlled statement found; is this the intent?
+D:\source\repos\No Escape\No Escape\definitions.h(779,32): warning C4390: ';': empty controlled statement found; is this the intent?
+  Generating code
+  Previous IPDB and IOBJ mismatch, fall back to full compilation.
+D:\source\repos\No Escape\No Escape\Source.cpp(224): warning C4715: 'WinMain': not all control paths return a value
+  All 218 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  No Escape.vcxproj -> D:\source\repos\No Escape\Release\No Escape.exe
