@@ -1,5 +1,4 @@
 # No-Escape-(SOURCE)
-#THIS IS NOT COMPLETE (WON'T RUN PROPERLY)
 
 CREDITS: Leurak, Enderman, AND MANY MORE PEOPLE I USED killwindowsinstant which was used in memz because i was either lazy
 DON'T COPYRIGHT IT IT'S already COPYRIGHTED created by ME this is rightfully owned by ME 
